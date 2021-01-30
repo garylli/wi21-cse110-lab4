@@ -10,3 +10,14 @@ This means that every loop, `finalPrice` is updated and will contain whatever th
 7. The value of `finalPrice` found within the final iteration of the `for` loop is printed since `finalPrice` is declared within the function and therefore is a function wide variable. This means that it is accessible within the for loop and can be updated.
 8. Assuming that the errors are cleared up from lines 11 and 12, it should return the same prices as before: `[50, 100, 150]`.
 
+9. `i` is undeclared since it is declared within the scope of the `for` loop block and will throw an error.
+10. `discountedPrice` is also undefined since it is declared within the scope of the `for` loop block.
+11. `finalPrice` will throw an error when attempting to reassign a new value to it at `line 7`. However, if we ignore this error, it will return 0 since `finalPrice` is declared as a function-wide constant so it would maintain its original value.
+12. It would throw multiple errors due to the reassigning of constant variables. However, if we ignore those errors, it would simply return an empty set `[]` since discounted is a constant so it would maintain its original value.
+
+13
+A. student.name
+B. student["Grad Year"];
+C. student.greeting();
+D. student["Favorite Teacher"].name
+E. student.courseLoad[0];
