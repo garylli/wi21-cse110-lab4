@@ -44,3 +44,4 @@ F. true since Boolean turns any number >= 1 to true.
 
 17. It prints How Are You? since 2 > 1 so it evaluates to true.
 
+19. `[6, 8, 10]` is returned since it takes every number within the array and calls doSomething. After doSomething is called, it calls the function declared in the function call with array[i] + 2, so it adds 2 to the number in the array and then multiplies it by 2. Therefore, we get 1 + 2 = 3 * 2 = 6, for the first number and so on.
