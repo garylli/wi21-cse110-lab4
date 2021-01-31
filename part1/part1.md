@@ -45,3 +45,5 @@ F. true since Boolean turns any number >= 1 to true.
 17. It prints How Are You? since 2 > 1 so it evaluates to true.
 
 19. `[6, 8, 10]` is returned since it takes every number within the array and calls doSomething. After doSomething is called, it calls the function declared in the function call with array[i] + 2, so it adds 2 to the number in the array and then multiplies it by 2. Therefore, we get 1 + 2 = 3 * 2 = 6, for the first number and so on.
+
+21. It prints out 1 4 3 2 with each number on a separate line. It's because it logs 1, 4, and then 3, and then 1 second later 2. The timeout runs only after the functions code is ran, so even though 3 has a timeout of 0, it's outputted after 4.
