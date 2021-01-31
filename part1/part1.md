@@ -21,3 +21,26 @@ B. student["Grad Year"];
 C. student.greeting();
 D. student["Favorite Teacher"].name
 E. student.courseLoad[0];
+
+14.
+A. 32 since the binary + operator is concatenating 2 to the string "3".
+B. 1 since the binary - operator automatically converts both types to numbers.
+C. 3 since null as a number is 0.
+D. 3null since the binary + operator is concatenating null to the string '3'.
+E. 4 since true has a number value of 1 and is converted into a number from the binary + operator.
+F. 0 since false is not a string and both false and null are converted to numbers. false has a value of 0 and null has a value of 0 so we get 0.
+G. 3undefined since we are applying the binary + operator to a string, meaning that it simply concatenates undefined onto 3.
+H. NaN since undefined has a numeric value of NaN.
+
+15.
+A. true since the > operator converts string 2 into a number
+B. true since 12 is the longer string.
+C. true since the == operator converts '2' to a number.
+D. false since '2' is not a number since === does not convert 2 to a string.
+E. false since true has a nuemric value of 1 so 1 != 2.
+F. true since Boolean turns any number >= 1 to true.
+
+16. The === operator does not do type conversions while == does.
+
+17. It prints How Are You? since 2 > 1 so it evaluates to true.
+
